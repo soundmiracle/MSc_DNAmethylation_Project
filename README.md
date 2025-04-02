@@ -19,8 +19,13 @@ MSc_DNAmethylation_Project/
 ├── 03_HCR_detection/
 │   └── hcr_analysis.R
 ├── 04_visualisation/
-│   ├── heatmap.R
-│   └── violin_plot.R
+│   ├── CHART.R
+│   ├── HEATMAP (Correlation Correlation).R
+│   ├── HEATMAP (Correlation each cpg-datasets in 1Mb or 100kb gate).R
+│   ├── HEATMAP (Display the dataset comparison).R
+│   ├── HISTOGRAM (Correlation Correlation).R
+│   ├── HISTOGRAM (Correlation each cpg-datasets in 1M gate).R
+│   └── VIOLIN PLOT (Display the dataset comparison).R
 └── data/
     └── humanmethylation450_15017482_v1-2.csv.gz
 ```
@@ -61,8 +66,13 @@ Rscript 03_HCR_detection/hcr_analysis.R chromosome_number block_size
 
 ### Step 4: Visualisation
 ```r
-source("04_visualisation/heatmap.R")
-source("04_visualisation/violin_plot.R")
+source("04_visualisation/CHART.R")
+source("04_visualisation/HEATMAP (Correlation Correlation).R")
+source("04_visualisation/HEATMAP (Correlation each cpg-datasets in 1Mb or 100kb gate).R")
+source("04_visualisation/HEATMAP (Display the dataset comparison).R")
+source("04_visualisation/HISTOGRAM (Correlation Correlation).R")
+source("04_visualisation/HISTOGRAM (Correlation each cpg-datasets in 1M gate).R")
+source("04_visualisation/VIOLIN PLOT (Display the dataset comparison).R")
 ```
 
 Generates correlation heatmaps, violin plots of beta values, and inter-dataset comparison charts.
