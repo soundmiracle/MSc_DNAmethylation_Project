@@ -23,8 +23,7 @@ MSc_DNAmethylation_Project/
 │   ├── HISTOGRAM (Correlation Correlation).R
 │   ├── HISTOGRAM (Correlation each cpg-datasets in 1M gate).R
 │   └── VIOLIN PLOT (Display the dataset comparison).R
-└── data/
-    └── humanmethylation450_15017482_v1-2.csv.gz
+
 ```
 
 ---
