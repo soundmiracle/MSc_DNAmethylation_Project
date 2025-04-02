@@ -1,3 +1,6 @@
+---
+
+```markdown
 # 🧬 Genome-wide DNA Methylation Correlation Analysis
 
 This repository contains R scripts and supporting files for my MSc project conducted at University College London. The project focused on analysing **long-range correlation structures of DNA methylation** across various tissues and ethnic groups.
@@ -16,15 +19,11 @@ MSc_DNAmethylation_Project/
 ├── 03_HCR_detection/
 │   └── hcr_analysis.R
 ├── 04_visualisation/
-│   ├── CHART.R
-│   ├── HEATMAP (Correlation Correlation).R
-│   ├── HEATMAP (Correlation each cpg-datasets in 1Mb or 100kb gate).R
-│   ├── HEATMAP (Display the dataset comparison).R
-│   ├── HISTOGRAM (Correlation Correlation).R
-│   ├── HISTOGRAM (Correlation each cpg-datasets in 1M gate).R
-│   └── VIOLIN PLOT (Display the dataset comparison).R
+│   ├── heatmap.R
+│   └── violin_plot.R
 └── data/
-    └──  humanmethylation450_15017482_v1-2.csv.gz
+    └── humanmethylation450_15017482_v1-2.csv.gz
+```
 
 ---
 
@@ -38,7 +37,6 @@ We aimed to quantify DNA methylation correlation patterns across the genome by:
 - Comparing correlation conservation across datasets to infer biological consistency.
 
 ---
-
 
 ## 💻 How to Use
 
@@ -63,14 +61,8 @@ Rscript 03_HCR_detection/hcr_analysis.R chromosome_number block_size
 
 ### Step 4: Visualisation
 ```r
-source("04_visualisation/CHART.R")
-source("04_visualisation/HEATMAP (Correlation Correlation).R")
-source("04_visualisation/HEATMAP (Correlation each cpg-datasets in 1Mb or 100kb gate).R")
-source("04_visualisation/HEATMAP (Display the dataset comparison).R")
-source("04_visualisation/HISTOGRAM (Correlation Correlation).R")
-source("04_visualisation/HISTOGRAM (Correlation each cpg-datasets in 1M gate).R")
-source("04_visualisation/VIOLIN PLOT (Display the dataset comparison).R")
-
+source("04_visualisation/heatmap.R")
+source("04_visualisation/violin_plot.R")
 ```
 
 Generates correlation heatmaps, violin plots of beta values, and inter-dataset comparison charts.
