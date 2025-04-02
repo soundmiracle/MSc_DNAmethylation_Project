@@ -115,6 +115,4 @@ MSc in Genetics of Human Disease, University College London
 
 ---
 
-```
 
----
