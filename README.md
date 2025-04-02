@@ -5,6 +5,8 @@ This repository contains R scripts and supporting files for my MSc project condu
 ---
 
 ## 📁 Project Structure
+
+```
 MSc_DNAmethylation_Project/
 ├── README.md
 ├── 01_preprocessing/
@@ -124,4 +126,3 @@ MSc in Genetics of Human Disease, University College London
 ```
 
 ---
-
