@@ -15,15 +15,14 @@ MSc_DNAmethylation_Project/
 │   └── correlation_calc.R
 ├── 03_HCR_detection/
 │   └── hcr_analysis.R
-├── 04_visualisation/
-│   ├── CHART.R
-│   ├── HEATMAP (Correlation Correlation).R
-│   ├── HEATMAP (Correlation each cpg-datasets in 1Mb or 100kb gate).R
-│   ├── HEATMAP (Display the dataset comparison).R
-│   ├── HISTOGRAM (Correlation Correlation).R
-│   ├── HISTOGRAM (Correlation each cpg-datasets in 1M gate).R
-│   └── VIOLIN PLOT (Display the dataset comparison).R
-
+└── 04_visualisation/
+    ├── CHART.R
+    ├── HEATMAP (Correlation Correlation).R
+    ├── HEATMAP (Correlation each cpg-datasets in 1Mb or 100kb gate).R
+    ├── HEATMAP (Display the dataset comparison).R
+    ├── HISTOGRAM (Correlation Correlation).R
+    ├── HISTOGRAM (Correlation each cpg-datasets in 1M gate).R
+    └── VIOLIN PLOT (Display the dataset comparison).R
 ```
 
 ---
