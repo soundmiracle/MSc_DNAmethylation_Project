@@ -1,11 +1,11 @@
 
 
-```
+
 # 🧬 Genome-wide DNA Methylation Correlation Analysis
 
 This repository contains R scripts and supporting files for my MSc project conducted at University College London. The project focused on analysing **long-range correlation structures of DNA methylation** across various tissues and ethnic groups.
 
-
+---
 
 ## 📁 Project Structure
 
