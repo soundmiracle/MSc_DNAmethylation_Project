@@ -1,10 +1,10 @@
-# 🧬 Genome-wide DNA Methylation Correlation Analysis
+# Genome-wide DNA Methylation Correlation Analysis
 
 This repository contains R scripts and supporting files for my MSc project conducted at University College London. The project focused on analysing **long-range correlation structures of DNA methylation** across various tissues and ethnic groups.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 MSc_DNAmethylation_Project/
@@ -27,7 +27,7 @@ MSc_DNAmethylation_Project/
 
 ---
 
-## 📋 Project Summary
+## Project Summary
 
 We aimed to quantify DNA methylation correlation patterns across the genome by:
 
@@ -38,7 +38,7 @@ We aimed to quantify DNA methylation correlation patterns across the genome by:
 
 ---
 
-## 💻 How to Use
+## How to Use
 
 ### Step 1: Preprocessing (Optional)
 ```r
@@ -74,7 +74,7 @@ Generates correlation heatmaps, violin plots of beta values, and inter-dataset c
 
 ---
 
-## 📦 Required R Packages
+## Required R Packages
 
 Make sure the following packages are installed:
 - `ggplot2`
@@ -92,7 +92,7 @@ install.packages(c("ggplot2", "dplyr", "reshape2", "gtools", "gridExtra", "gplot
 
 ---
 
-## 📈 Outputs
+## Outputs
 
 - `.RData` files: CpG-CpG correlation matrices
 - `.txt` files: Summary stats per genomic block
@@ -101,7 +101,7 @@ install.packages(c("ggplot2", "dplyr", "reshape2", "gtools", "gridExtra", "gplot
 
 ---
 
-## 📎 Notes
+## Notes
 
 - Methylation matrices are `.RDS` format (CpG x sample).
 - CpG manifest (`humanmethylation450_15017482_v1-2.csv.gz`) is required for annotation.
@@ -110,7 +110,7 @@ install.packages(c("ggplot2", "dplyr", "reshape2", "gtools", "gridExtra", "gplot
 
 ---
 
-## 👨‍🔬 Author
+## Author
 
 **Young Jun Kim**  
 MSc in Genetics of Human Disease, University College London  
